@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "app_name": "_lambda",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "lambda_memory_size": 8192,
+      "lambda_timeout": 60,
+      "environment_variables": {
+        "ORIGIN_BUCKET": "",
+        "DEST_BUCKET": "",
+        "REGION": "",
+        "FMT": "jpeg",
+        "DPI": "300"
+      }
+    }
+  }
+}
